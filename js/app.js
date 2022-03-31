@@ -1,2 +1,4 @@
-window.alert("Olá mundo!")
-window.console.log("Eu sou o console e vou te ajudar")
+alert("Olá mundo!")
+console.log(
+   document.getElementById("titulo").innerHTML
+)
