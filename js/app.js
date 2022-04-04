@@ -1,7 +1,7 @@
-function voltar() {
-    history.back()
-}
+console.log(
+    document.getElementById("fruta").innerHTML
+)
 
-function adiantar() {
-    history.forward()
-}
+console.log(
+    document.getElementsByClassName("carro")[2].innerHTML
+)
