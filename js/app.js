@@ -1,8 +1,7 @@
-alert("Olá mundo!")
-console.log(
-   document.getElementById("titulo").innerHTML
-)
+function voltar() {
+    history.back()
+}
 
-console.log(
-    document.getElementById("teste").innerHTML
-)
+function adiantar() {
+    history.forward()
+}
