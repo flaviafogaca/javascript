@@ -1,3 +1,3 @@
 console.log(
-  document.querySelector("#p2")
+  document.getElementById("futebol-europeu").querySelectorAll(".times")[0].innerHTML
 )
