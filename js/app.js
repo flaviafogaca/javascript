@@ -1,10 +1,10 @@
-var imagem = document.createElement("img")
-imagem.src = "senhor-dos-aneis.jpg"
+var p = document.createElement("p")
+p.innerHTML = "Oi gente"
 
-var paragrafo = document.createElement("p")
-paragrafo.innerHTML = "Oi gente"
+var img = document.createElement("img")
+img.src = "senhor-dos-aneis.jpg"
 
-console.log(
-    imagem, paragrafo
-)
+document.getElementById("conteudo").appendChild(p)
+document.getElementById("conteudo").appendChild(img)
 
+document.getElementById("conteudo").removeChild(img)
