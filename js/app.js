@@ -1,4 +1,4 @@
-var lista = document.getElementsByTagName("ul")[0]
+var lista = document.getElementsByTagName("ul")[1]
 var itens = lista.children
 
 var novoItem = document.createElement("li")
