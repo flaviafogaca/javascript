@@ -1,6 +1,9 @@
-var titulo = document.querySelector("h1")
-var texto = document.createTextNode("Um texto qualquer")
+var lista = document.getElementsByTagName("ul")[0]
+var itens = lista.children
 
-titulo.appendChild(texto)
+var novoItem = document.createElement("li")
+novoItem.textContent = "z"
 
-titulo.textContent = "Oi"
+lista.insertBefore(novoItem, itens[0])
+
+console.log(itens)
