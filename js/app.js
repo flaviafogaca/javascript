@@ -18,13 +18,22 @@ carro.cor = "azul"
 // function
 var soma = function(a, b) {return a+b}
 
-alert(typeof(soma))
-
-
 // Variáveis
 // escopo global, escopo local
 // var (escopo global), let (dentro do bloco), const
 
 const nome1 = "Flávia"
 
-console.log(nome1)
+// Array: Estrutura de dados que armazena uma coleção de elementos
+// No array só tem o valor, no objeto tem índice e valor
+
+let meuArray = [
+    "dia",
+    "noite",
+    "24",
+    "1 dia",
+    {oi: "olá"},
+    ["pão", "ovo"]
+]
+
+console.log(meuArray[5][0])
