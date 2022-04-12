@@ -1,15 +1,21 @@
-var lista = document.getElementsByTagName("ul")[1]
-var itens = lista.children
-var novoItem = document.createElement("li")
-novoItem.textContent = "z"
+// Tipos de dados
 
-lista.insertBefore(novoItem, itens[0])
+// string
+var nome = "Fláiva"
+// number
+var idade = 50
+// boolean
+var solteira = true
 
-var lista2 = document.getElementsByTagName("ul")[1]
-var itens2 = lista2.children
-var novoItem2 = document.createElement("li")
-novoItem2.textContent = "y"
+// array (tipo especial de objeto)
+var frutas = ["vermelho", "azul", "preto"]
 
-lista.replaceChild(novoItem2, itens2[2])
+// object
+var carro = new Object()
+carro.fabricacao = "2025"
+carro.cor = "azul"
 
-console.log(itens2)
+// function
+var soma = function(a, b) {return a+b}
+
+alert(typeof(soma))
