@@ -73,5 +73,15 @@ let resultado = (n1+n2+n3)/3
 
 console.log(resultado)
 
+// x = x + y igual a x += y
+
+let x = 2
+let y = 1
+
+console.log(x)
+
+x--
+
+console.log(x)
 
 
