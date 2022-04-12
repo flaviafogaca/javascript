@@ -1,7 +1,7 @@
 // Tipos de dados
 
 // string
-var nome = "Fláiva"
+var nome = "Flávia"
 // number
 var idade = 50
 // boolean
