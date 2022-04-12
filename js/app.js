@@ -55,10 +55,23 @@ let pessoa = {
         }
     },
     andar: function(km){
-        alert(pessoa.nome+" andou "+km+" km ")
+        (pessoa.nome+" andou "+km+" km ")
     }
 }
 
 pessoa.andar(20)
-console.log(pessoa.carros.uno.cor)
+
+/* Operadores:
+Aritméticos
+Atribuição
+*/
+
+let n1 = 8
+let n2 = 5
+let n3 = 7
+let resultado = (n1+n2+n3)/3
+
+console.log(resultado)
+
+
 
