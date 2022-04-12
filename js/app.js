@@ -1,7 +1,7 @@
 // Tipos de dados
 
 // string
-var nome = "Flávia"
+var nome = "Maria"
 // number
 var idade = 50
 // boolean
@@ -19,3 +19,12 @@ carro.cor = "azul"
 var soma = function(a, b) {return a+b}
 
 alert(typeof(soma))
+
+
+// Variáveis
+// escopo global, escopo local
+// var (escopo global), let (dentro do bloco), const
+
+const nome1 = "Flávia"
+
+console.log(nome1)
