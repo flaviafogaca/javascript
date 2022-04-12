@@ -36,4 +36,29 @@ let meuArray = [
     ["pão", "ovo"]
 ]
 
-console.log(meuArray[5][0])
+// Objeto
+/* Um objeto é uma coleção de propriedades, e uma propriedade é uma associação entre um nome (ou chave) e um valor. Um valor de propriedade pode ser uma função, que é então consierada um método do objetivo. */
+
+let pessoa = {
+    nome: "Dani",
+    idade: 32,
+    filhos: true,
+    nomeFilhos: ["Ori", "Nala"],
+    carros: {
+        camaro: {
+            placa: "123456",
+            cor: "amarelo"
+        },
+        uno: {
+            placa: "654321",
+            cor: "vermelho"
+        }
+    },
+    andar: function(km){
+        alert(pessoa.nome+" andou "+km+" km ")
+    }
+}
+
+pessoa.andar(20)
+console.log(pessoa.carros.uno.cor)
+
