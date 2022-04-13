@@ -3,7 +3,7 @@
 // string
 var nome = "Maria"
 // number
-var idade = 50
+var idade = 13
 // boolean
 var solteira = true
 
@@ -41,7 +41,7 @@ let meuArray = [
 
 let pessoa = {
     nome: "Dani",
-    idade: 32,
+    idade: 13,
     filhos: true,
     nomeFilhos: ["Ori", "Nala"],
     carros: {
@@ -71,17 +71,26 @@ let n2 = 5
 let n3 = 7
 let resultado = (n1+n2+n3)/3
 
-console.log(resultado)
-
 // x = x + y igual a x += y
 
 let x = 2
 let y = 1
 
-console.log(x)
-
 x--
 
-console.log(x)
+// Operador de comparação. Ex: "!=", "<", ">=", "==="
+
+let media = 5
+let frequencia = 80
+
+console.log(media >=7 || frequencia >= 80)
+
+let eleitor = (idade >= 16) ? "pode votar" : "Não pode votar"
+
+console.log(eleitor)
+
+let eleitor2 = !(idade <= 15) ? "pode votar" : "Não pode votar"
+
+console.log(eleitor2)
 
 
