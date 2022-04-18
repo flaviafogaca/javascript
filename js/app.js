@@ -124,21 +124,33 @@ else {
 
 // Loop: For e while
 
-let paises = document.getElementsByClassName('pais')
-let i = 0
+/* let paises = document.getElementsByClassName('pais')
+let i = 0 
+*/
 
 /* for (let i = 0; i < paises.length; i++) {
     console.log(paises[i].innerHTML)
 }
 */
 
-do {
+/* do {
     console.log(paises[i].innerHTML)
     i++
 }
 
 while(i < paises.length)
+*/
 
+// LOOPS: for in e for of
 
+let fruta = {nome:"Banana", preco: 9.99, unidade:1}
+let aparelhos = ["Celular", "Fone de ouvido", "Microfone", "Mouse"]
 
+/* for (let valor in fruta) {
+    console.log(fruta[valor])
+}
+*/
 
+for (let valor of aparelhos) {
+    console.log(valor)
+}
