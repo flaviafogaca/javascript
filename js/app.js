@@ -87,10 +87,44 @@ console.log(media >=7 || frequencia >= 80)
 
 let eleitor = (idade >= 16) ? "pode votar" : "Não pode votar"
 
-console.log(eleitor)
-
 let eleitor2 = !(idade <= 15) ? "pode votar" : "Não pode votar"
 
-console.log(eleitor2)
+/* Condicionais:
+If
+Else
+ElseIf
+Switch
+*/
+
+/* let pais = "xxx"
+let estado = "ba"
+
+switch(pais){
+    case 'brasil':
+        console.log("Sim, Brasil")
+        break
+    case 'canada':
+        console.log("Opa, Canadá")
+        break
+    default:
+        console.log("Não encontrado")
+        break
+}
+*/
+
+/* if (pais == "canada") {
+    console.log("Sou brasileira")
+} else if (estado == "ba") {
+    console.log("Sou baiano")
+}
+else {
+    console.log("Sou gringo")
+}
+*/
+
+
+
+
+
 
 
