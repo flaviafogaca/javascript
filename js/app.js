@@ -143,14 +143,30 @@ while(i < paises.length)
 
 // LOOPS: for in e for of
 
-let fruta = {nome:"Banana", preco: 9.99, unidade:1}
+/* let fruta = {nome:"Banana", preco: 9.99, unidade:1}
 let aparelhos = ["Celular", "Fone de ouvido", "Microfone", "Mouse"]
 
-/* for (let valor in fruta) {
+for (let valor in fruta) {
     console.log(fruta[valor])
 }
 */
 
-for (let valor of aparelhos) {
+/*for (let valor of aparelhos) {
     console.log(valor)
 }
+*/
+
+// FUNÇÕES
+
+function exibirAlert() {
+    alert("Funcionou!")
+}
+
+exibirAlert()
+
+function soma(x, y){
+    return x + y
+}
+
+// console.log(soma(2, 3))
+document.getElementById("resultado").innerHTML = soma(3, 6)
