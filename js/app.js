@@ -158,7 +158,7 @@ for (let valor in fruta) {
 
 // FUNÇÕES
 
-function exibirAlert() {
+/* function exibirAlert() {
     alert("Funcionou!")
 }
 
@@ -167,6 +167,30 @@ exibirAlert()
 function soma(x, y){
     return x + y
 }
+*/
 
 // console.log(soma(2, 3))
-document.getElementById("resultado").innerHTML = soma(3, 6)
+
+/* document.getElementById("resultado").innerHTML = soma(3, 6)
+*/
+
+// ALERT, PROMPT E CONFIRM
+
+// alert("Alerta!! Vc foi alertado!")
+
+// prompt("Digite um número")
+
+/* let numero = prompt("Digite um número")
+alert(numero)
+*/
+
+/* console.log(confirm("Tem certeza que deseja excluir?"))
+*/
+
+let resposta = confirm("Tem certeza que deseja continuar?")
+
+if(resposta == true) {
+    alert("Item excluido com sucesso!")
+} else {
+    alert("Exclusão cancelada!")
+}
