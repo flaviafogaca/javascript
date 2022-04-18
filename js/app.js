@@ -122,8 +122,22 @@ else {
 }
 */
 
+// Loop: For e while
 
+let paises = document.getElementsByClassName('pais')
+let i = 0
 
+/* for (let i = 0; i < paises.length; i++) {
+    console.log(paises[i].innerHTML)
+}
+*/
+
+do {
+    console.log(paises[i].innerHTML)
+    i++
+}
+
+while(i < paises.length)
 
 
 
